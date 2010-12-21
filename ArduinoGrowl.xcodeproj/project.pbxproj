@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C24165C1297DA5700FF1FA2 /* CFDictionaryAdditions.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C2416441297DA5700FF1FA2 /* CFDictionaryAdditions.c */; };
+		2C24165D1297DA5700FF1FA2 /* GrowlImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C24164E1297DA5700FF1FA2 /* GrowlImageAdditions.m */; };
+		2C24166B1297DA8800FF1FA2 /* AMSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2416621297DA8800FF1FA2 /* AMSerialPort.m */; };
+		2C24166C1297DA8800FF1FA2 /* AMSerialPortAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2416641297DA8800FF1FA2 /* AMSerialPortAdditions.m */; };
+		2C24166D1297DA8800FF1FA2 /* AMSerialPortList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2416661297DA8800FF1FA2 /* AMSerialPortList.m */; };
+		2C24166E1297DA8800FF1FA2 /* AMSerialPortList_Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2416681297DA8800FF1FA2 /* AMSerialPortList_Deprecated.m */; };
+		2C24166F1297DA8800FF1FA2 /* AMStandardEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C24166A1297DA8800FF1FA2 /* AMStandardEnumerator.m */; };
+		2C83521B129B2C3A00CC883B /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C83521A129B2C3A00CC883B /* PreferencePanes.framework */; };
+		2C83524F129B2CD000CC883B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C83524E129B2CD000CC883B /* IOKit.framework */; };
+		2C8353BE129B3C1100CC883B /* ArduinoGrowlDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8353B9129B3C1100CC883B /* ArduinoGrowlDisplay.m */; };
+		2C8353BF129B3C1100CC883B /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8353BB129B3C1100CC883B /* NotificationController.m */; };
+		2C8353C0129B3C1100CC883B /* PrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8353BD129B3C1100CC883B /* PrefsViewController.m */; };
+		2C835457129B456000CC883B /* PrefsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C835456129B456000CC883B /* PrefsViewController.xib */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2C2416441297DA5700FF1FA2 /* CFDictionaryAdditions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFDictionaryAdditions.c; sourceTree = "<group>"; };
+		2C2416451297DA5700FF1FA2 /* CFDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDictionaryAdditions.h; sourceTree = "<group>"; };
+		2C2416461297DA5700FF1FA2 /* CFGrowlDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFGrowlDefines.h; sourceTree = "<group>"; };
+		2C2416471297DA5700FF1FA2 /* GrowlAbstractSingletonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlAbstractSingletonObject.h; sourceTree = "<group>"; };
+		2C2416481297DA5700FF1FA2 /* GrowlApplicationNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlApplicationNotification.h; sourceTree = "<group>"; };
+		2C2416491297DA5700FF1FA2 /* GrowlDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlDefines.h; sourceTree = "<group>"; };
+		2C24164A1297DA5700FF1FA2 /* GrowlDefinesInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlDefinesInternal.h; sourceTree = "<group>"; };
+		2C24164B1297DA5700FF1FA2 /* GrowlDisplayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlDisplayPlugin.h; sourceTree = "<group>"; };
+		2C24164C1297DA5700FF1FA2 /* GrowlDisplayWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlDisplayWindowController.h; sourceTree = "<group>"; };
+		2C24164D1297DA5700FF1FA2 /* GrowlImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlImageAdditions.h; sourceTree = "<group>"; };
+		2C24164E1297DA5700FF1FA2 /* GrowlImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowlImageAdditions.m; sourceTree = "<group>"; };
+		2C24164F1297DA5700FF1FA2 /* GrowlNotificationDisplayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlNotificationDisplayBridge.h; sourceTree = "<group>"; };
+		2C2416501297DA5700FF1FA2 /* GrowlPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlPlugin.h; sourceTree = "<group>"; };
+		2C2416511297DA5700FF1FA2 /* GrowlPositionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlPositionController.h; sourceTree = "<group>"; };
+		2C2416521297DA5700FF1FA2 /* GrowlPositioningDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlPositioningDefines.h; sourceTree = "<group>"; };
+		2C2416531297DA5700FF1FA2 /* NSWindow+Transforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+Transforms.h"; sourceTree = "<group>"; };
+		2C2416551297DA5700FF1FA2 /* GrowlFadingWindowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlFadingWindowTransition.h; sourceTree = "<group>"; };
+		2C2416561297DA5700FF1FA2 /* GrowlFlippingWindowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlFlippingWindowTransition.h; sourceTree = "<group>"; };
+		2C2416571297DA5700FF1FA2 /* GrowlScaleWindowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlScaleWindowTransition.h; sourceTree = "<group>"; };
+		2C2416581297DA5700FF1FA2 /* GrowlShrinkingWindowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlShrinkingWindowTransition.h; sourceTree = "<group>"; };
+		2C2416591297DA5700FF1FA2 /* GrowlSlidingWindowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlSlidingWindowTransition.h; sourceTree = "<group>"; };
+		2C24165A1297DA5700FF1FA2 /* GrowlWindowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlWindowTransition.h; sourceTree = "<group>"; };
+		2C24165B1297DA5700FF1FA2 /* GrowlWipeWindowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlWipeWindowTransition.h; sourceTree = "<group>"; };
+		2C24165F1297DA8800FF1FA2 /* AMSDKCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSDKCompatibility.h; sourceTree = "<group>"; };
+		2C2416601297DA8800FF1FA2 /* AMSerialErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialErrors.h; sourceTree = "<group>"; };
+		2C2416611297DA8800FF1FA2 /* AMSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPort.h; sourceTree = "<group>"; };
+		2C2416621297DA8800FF1FA2 /* AMSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPort.m; sourceTree = "<group>"; };
+		2C2416631297DA8800FF1FA2 /* AMSerialPortAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortAdditions.h; sourceTree = "<group>"; };
+		2C2416641297DA8800FF1FA2 /* AMSerialPortAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortAdditions.m; sourceTree = "<group>"; };
+		2C2416651297DA8800FF1FA2 /* AMSerialPortList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortList.h; sourceTree = "<group>"; };
+		2C2416661297DA8800FF1FA2 /* AMSerialPortList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortList.m; sourceTree = "<group>"; };
+		2C2416671297DA8800FF1FA2 /* AMSerialPortList_Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortList_Deprecated.h; sourceTree = "<group>"; };
+		2C2416681297DA8800FF1FA2 /* AMSerialPortList_Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortList_Deprecated.m; sourceTree = "<group>"; };
+		2C2416691297DA8800FF1FA2 /* AMStandardEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMStandardEnumerator.h; sourceTree = "<group>"; };
+		2C24166A1297DA8800FF1FA2 /* AMStandardEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMStandardEnumerator.m; sourceTree = "<group>"; };
+		2C83521A129B2C3A00CC883B /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		2C83524E129B2CD000CC883B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		2C8353B8129B3C1100CC883B /* ArduinoGrowlDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArduinoGrowlDisplay.h; path = Classes/ArduinoGrowlDisplay.h; sourceTree = "<group>"; };
+		2C8353B9129B3C1100CC883B /* ArduinoGrowlDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArduinoGrowlDisplay.m; path = Classes/ArduinoGrowlDisplay.m; sourceTree = "<group>"; };
+		2C8353BA129B3C1100CC883B /* NotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationController.h; path = Classes/NotificationController.h; sourceTree = "<group>"; };
+		2C8353BB129B3C1100CC883B /* NotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationController.m; path = Classes/NotificationController.m; sourceTree = "<group>"; };
+		2C8353BC129B3C1100CC883B /* PrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefsViewController.h; path = Classes/PrefsViewController.h; sourceTree = "<group>"; };
+		2C8353BD129B3C1100CC883B /* PrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrefsViewController.m; path = Classes/PrefsViewController.m; sourceTree = "<group>"; };
+		2C835456129B456000CC883B /* PrefsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrefsViewController.xib; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* ArduinoGrowl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArduinoGrowl_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* ArduinoGrowl.growlView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArduinoGrowl.growlView; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				2C83521B129B2C3A00CC883B /* PreferencePanes.framework in Frameworks */,
+				2C83524F129B2CD000CC883B /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ArduinoGrowl */ = {
+			isa = PBXGroup;
+			children = (
+				2C24165E1297DA8800FF1FA2 /* AMSerial */,
+				2C2416431297DA5700FF1FA2 /* Growl */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = ArduinoGrowl;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C835456129B456000CC883B /* PrefsViewController.xib */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C8353B8129B3C1100CC883B /* ArduinoGrowlDisplay.h */,
+				2C8353B9129B3C1100CC883B /* ArduinoGrowlDisplay.m */,
+				2C8353BA129B3C1100CC883B /* NotificationController.h */,
+				2C8353BB129B3C1100CC883B /* NotificationController.m */,
+				2C8353BC129B3C1100CC883B /* PrefsViewController.h */,
+				2C8353BD129B3C1100CC883B /* PrefsViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C83521A129B2C3A00CC883B /* PreferencePanes.framework */,
+				2C83524E129B2CD000CC883B /* IOKit.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* ArduinoGrowl.growlView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C2416431297DA5700FF1FA2 /* Growl */ = {
+			isa = PBXGroup;
+			children = (
+				2C2416441297DA5700FF1FA2 /* CFDictionaryAdditions.c */,
+				2C2416451297DA5700FF1FA2 /* CFDictionaryAdditions.h */,
+				2C2416461297DA5700FF1FA2 /* CFGrowlDefines.h */,
+				2C2416471297DA5700FF1FA2 /* GrowlAbstractSingletonObject.h */,
+				2C2416481297DA5700FF1FA2 /* GrowlApplicationNotification.h */,
+				2C2416491297DA5700FF1FA2 /* GrowlDefines.h */,
+				2C24164A1297DA5700FF1FA2 /* GrowlDefinesInternal.h */,
+				2C24164B1297DA5700FF1FA2 /* GrowlDisplayPlugin.h */,
+				2C24164C1297DA5700FF1FA2 /* GrowlDisplayWindowController.h */,
+				2C24164D1297DA5700FF1FA2 /* GrowlImageAdditions.h */,
+				2C24164E1297DA5700FF1FA2 /* GrowlImageAdditions.m */,
+				2C24164F1297DA5700FF1FA2 /* GrowlNotificationDisplayBridge.h */,
+				2C2416501297DA5700FF1FA2 /* GrowlPlugin.h */,
+				2C2416511297DA5700FF1FA2 /* GrowlPositionController.h */,
+				2C2416521297DA5700FF1FA2 /* GrowlPositioningDefines.h */,
+				2C2416531297DA5700FF1FA2 /* NSWindow+Transforms.h */,
+				2C2416541297DA5700FF1FA2 /* Transitions */,
+			);
+			path = Growl;
+			sourceTree = "<group>";
+		};
+		2C2416541297DA5700FF1FA2 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				2C2416551297DA5700FF1FA2 /* GrowlFadingWindowTransition.h */,
+				2C2416561297DA5700FF1FA2 /* GrowlFlippingWindowTransition.h */,
+				2C2416571297DA5700FF1FA2 /* GrowlScaleWindowTransition.h */,
+				2C2416581297DA5700FF1FA2 /* GrowlShrinkingWindowTransition.h */,
+				2C2416591297DA5700FF1FA2 /* GrowlSlidingWindowTransition.h */,
+				2C24165A1297DA5700FF1FA2 /* GrowlWindowTransition.h */,
+				2C24165B1297DA5700FF1FA2 /* GrowlWipeWindowTransition.h */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		2C24165E1297DA8800FF1FA2 /* AMSerial */ = {
+			isa = PBXGroup;
+			children = (
+				2C24165F1297DA8800FF1FA2 /* AMSDKCompatibility.h */,
+				2C2416601297DA8800FF1FA2 /* AMSerialErrors.h */,
+				2C2416611297DA8800FF1FA2 /* AMSerialPort.h */,
+				2C2416621297DA8800FF1FA2 /* AMSerialPort.m */,
+				2C2416631297DA8800FF1FA2 /* AMSerialPortAdditions.h */,
+				2C2416641297DA8800FF1FA2 /* AMSerialPortAdditions.m */,
+				2C2416651297DA8800FF1FA2 /* AMSerialPortList.h */,
+				2C2416661297DA8800FF1FA2 /* AMSerialPortList.m */,
+				2C2416671297DA8800FF1FA2 /* AMSerialPortList_Deprecated.h */,
+				2C2416681297DA8800FF1FA2 /* AMSerialPortList_Deprecated.m */,
+				2C2416691297DA8800FF1FA2 /* AMStandardEnumerator.h */,
+				2C24166A1297DA8800FF1FA2 /* AMStandardEnumerator.m */,
+			);
+			path = AMSerial;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* ArduinoGrowl_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* ArduinoGrowl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "ArduinoGrowl" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduinoGrowl;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = ArduinoGrowl;
+			productReference = 8D5B49B6048680CD000E48DA /* ArduinoGrowl.growlView */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "ArduinoGrowl" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* ArduinoGrowl */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* ArduinoGrowl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				2C835457129B456000CC883B /* PrefsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C24165C1297DA5700FF1FA2 /* CFDictionaryAdditions.c in Sources */,
+				2C24165D1297DA5700FF1FA2 /* GrowlImageAdditions.m in Sources */,
+				2C24166B1297DA8800FF1FA2 /* AMSerialPort.m in Sources */,
+				2C24166C1297DA8800FF1FA2 /* AMSerialPortAdditions.m in Sources */,
+				2C24166D1297DA8800FF1FA2 /* AMSerialPortList.m in Sources */,
+				2C24166E1297DA8800FF1FA2 /* AMSerialPortList_Deprecated.m in Sources */,
+				2C24166F1297DA8800FF1FA2 /* AMStandardEnumerator.m in Sources */,
+				2C8353BE129B3C1100CC883B /* ArduinoGrowlDisplay.m in Sources */,
+				2C8353BF129B3C1100CC883B /* NotificationController.m in Sources */,
+				2C8353C0129B3C1100CC883B /* PrefsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ArduinoGrowl_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Growl/Plugins";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = ArduinoGrowl;
+				WRAPPER_EXTENSION = growlView;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ArduinoGrowl_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Growl/Plugins";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = ArduinoGrowl;
+				WRAPPER_EXTENSION = growlView;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "ArduinoGrowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "ArduinoGrowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
